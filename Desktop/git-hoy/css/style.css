@@ -1,0 +1,71 @@
+/* comentario en css */
+
+h3{
+    color: green;
+}
+
+h1{
+    color: blueviolet;
+}
+
+
+/* selectores */
+
+/* nombre de una etiqueta, header, main, h, p,*/
+
+/* class */
+
+.subtitulo{
+    color: chocolate;
+}
+
+/* id */
+
+#nombre{
+    color: pink;
+}
+
+
+
+
+
+/* estilos de html ejemplo */
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    background-color: coral;
+}
+
+/* ruta de especificidad */
+
+header h1{
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    background-color: crimson;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+}
+
+header nav{
+    background-color: crimson;
+}
+
+header nav ul{
+    list-style: none;
+    text-align: center;
+}
+
+header nav ul li{
+    color: darkgray;
+    font-size: 21px;
+}
+
+header nav ul li a{
+    color: darkgrey;
+    text-decoration: none;
+    font-size: 21px;
+}
